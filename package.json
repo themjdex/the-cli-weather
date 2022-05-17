@@ -4,7 +4,9 @@
   "description": "getting current weather",
   "main": "index.js",
   "bin": "./index.js",
-  "man": ["./README.md"],
+  "man": [
+    "./README.md"
+  ],
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +24,8 @@
   "bugs": {
     "url": "https://google.com",
     "email": "themjdex@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
-  
 }
